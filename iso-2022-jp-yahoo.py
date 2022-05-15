@@ -39,7 +39,7 @@ jis='iso-2022-jp'
 # 本文
 # *************************
 text = "Python\n日本語\nUTF-8\n"
-text += "Yahoo は普通に送信できる\n"
+text += "Yahoo! は普通に送信できる\n"
 text += "PayPay ボイントって何だよ..."
 text = text.encode(jis)     # iso-2022-jp でテキスト全体をエンコード
 typrint(text)
